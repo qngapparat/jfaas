@@ -1,5 +1,5 @@
 <h1 align="center">jFaaS</h2>
-<h2 align="center">Unified wrapper for calling multiple FaaS providers</h2>
+<h2 align="center">Unified wrapper for calling different FaaS providers</h2>
 
 ```js
 jfaas.call('myamazonfunc', { a: 1 }, { amazon: { ...config }})
