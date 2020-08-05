@@ -2,8 +2,8 @@
 <h2 align="center">Unified wrapper for calling different FaaS providers</h2>
 
 ```js
-jfaas.call('myAmazonfunc', { a: 1 }, { amazon: { ...config }})
-jfaas.call('myGooglefunc', { a: 1 }, { google: { ...config }})
+jfaas.call('myAmazonfunc', { a: 1 }, { amazon: { ...config }}) // To call a Lambda function
+jfaas.call('myGooglefunc', { a: 1 }, { google: { ...config }}) // To call a Google Cloud function
 ```
 
 ## Install
