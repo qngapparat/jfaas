@@ -2,8 +2,8 @@
 <h2 align="center">Unified wrapper for calling multiple FaaS providers</h2>
 
 ```js
-jfaas.call('myamazonfunc', { a: 1 }, { amazon: { ...config }})
-jfaas.call('mygooglefunc', { a: 1 }, { google: { ...config }})
+jfaas.call('myAmazonfunc', { a: 1 }, { amazon: { ...config }})
+jfaas.call('myGooglefunc', { a: 1 }, { google: { ...config }})
 ```
 
 ## Install
