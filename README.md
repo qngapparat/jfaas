@@ -1,11 +1,17 @@
 <h1 align="center">jFaaS</h2>
 <h2 align="center">Unified wrapper for calling multiple FaaS providers</h2>
 
+```js
+jfaas.call('myamazonfunc', { a: 1 }, { amazon: { ...config }})
+jfaas.call('mygooglefunc', { a: 1 }, { google: { ...config }})
+```
+
 ## Install
 
 Requires NodeJS >= 10.2.0
 
 `npm i jfaas`
+
 
 ## Usage
 
