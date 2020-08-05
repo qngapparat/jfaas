@@ -62,7 +62,7 @@ function call(functionName, payload, options) {
     return callGoogle(functionName, payload, options.google)
   }
   else {
-    throw new Erorr("Neither options.amazon nor options.google specified.")
+    throw new Error("Neither options.amazon nor options.google specified.")
   }
 }
 
