@@ -1,6 +1,6 @@
 {
   "name": "jfaas",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "author": "Jakob Wallnoefer <jakob.wallnoefer@student.uibk.ac.at>",
